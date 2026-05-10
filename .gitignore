@@ -1,0 +1,34 @@
+# Angular build output
+/dist
+/tmp
+/out-tsc
+
+# Node dependencies
+/node_modules
+
+# IDE and editor settings
+.angular/
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+*.env
+src/environments/environment*.ts
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage reports
+/coverage
+
+# Misc
+.DS_Store
+Thumbs.db

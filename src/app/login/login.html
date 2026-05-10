@@ -1,0 +1,16 @@
+<h2>Angular 20 MSAL Demo</h2>
+<div *ngIf="!loginDisplay">
+    <p>You are not logged in.</p>
+    <button (click)="login()">
+        Login
+    </button>
+</div>
+<div *ngIf="loginDisplay">
+    <button (click)="logout()">
+        Logout
+    </button>
+
+    <button (click)="callApi()">
+        Call Secure API
+    </button>
+</div>
