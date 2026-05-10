@@ -102,6 +102,7 @@ export class LoginComponent implements OnInit {
       }
       ).subscribe({
         next: (res1) => {
+          alert('API call successful. Check console for response.');
           console.log(res1);
         },
 
